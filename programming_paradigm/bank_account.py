@@ -1,7 +1,7 @@
 # encapsulates banking operations use command line arguments to interact with instance of theis class
 
 class BankAccount:
-    def __init__(self, initail_balance = 0):
+    def __init__(self, initial_balance = 0):
         self.account_balance = initial_balance
 
     def deposit(self, amount):
